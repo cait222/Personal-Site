@@ -10,11 +10,11 @@ function App() {
         <div id="wrap">
             <BrowserRouter>
                 <Routes>
-                    <Route exact path="/#/noLink" element={<NoLinkPage />} />
+                    <Route exact path="Personal-Site/noLink" element={<NoLinkPage />} />
                     <Route exact path="/" element={<Home />} />
                     <Route path="*" element={<Home />} />
-                    <Route exact path="/#/teleaphasia" element={<TeleaphasiaProject />} />
-                    <Route exact path="/#/dancemat" element={<DanceMatProject />} />
+                    <Route exact path="Personal-Site/teleaphasia" element={<TeleaphasiaProject />} />
+                    <Route exact path="Personal-Site/dancemat" element={<DanceMatProject />} />
                 </Routes>
             </BrowserRouter>
         </div>
