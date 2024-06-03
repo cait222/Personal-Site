@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function ProjectCard(props) {
+    const navigate = useNavigate();
+
     let projects = props.projects;
     let projectsList = projects.map(project =>
         <div key={project.id} className="projectCard">
@@ -13,8 +16,10 @@ function ProjectCard(props) {
                         <p className="card-text">{project.cardText}</p>
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
-                                <a type="button" className="btn btn-sm btn-outline-secondary" href={project.siteLink} target="_blank" rel="noopener noreferrer">Visit site</a>
-                                <a type="button" className="btn btn-sm btn-outline-secondary" href={project.codeLink} target="_blank" rel="noopener noreferrer">View code</a>
+                                {/* <a type="button" className="btn btn-sm btn-outline-secondary" href={project.siteLink} target="_blank" rel="noopener noreferrer">Visit site</a>
+                                <a type="button" className="btn btn-sm btn-outline-secondary" href={project.codeLink} target="_blank" rel="noopener noreferrer">View code</a> */}
+                                <button onClick={() => navigate(project.siteLink)} type="button" className="btn btn-sm btn-outline-secondary">View Site</button>
+                                <button onClick={() => navigate(project.codeLink)} type="button" className="btn btn-sm btn-outline-secondary">View Code</button>
                             </div>
                             {/* <small className="text-body-secondary">9 mins</small> */}
                         </div>
