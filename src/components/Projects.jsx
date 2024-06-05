@@ -4,9 +4,30 @@ import WakabuImgURL from "../images/Wakabu_landingPage.png";
 import placeholderImgURL from "../images/placeholder.png";
 
 let projectsList = [
-    { id: 1, cardImage: WakabuImgURL, cardTitle: "Wakabu project", cardText: "A solution for encouraging mental health help-seeking behaviours in youths.", siteLink: "https://wakabuteam.wixsite.com/wakabu", codeLink: "noLink" },
-    { id: 2, cardImage: placeholderImgURL, cardTitle: "Teleaphasia project", cardText: "Tele-rehab solution for speech therapists to assign & assess at-home exercises for their patients.", siteLink: "teleaphasia", codeLink: "noLink" },
-    { id: 3, cardImage: placeholderImgURL, cardTitle: "Elderly dance mat project", cardText: "A dance mat catered to the elderly to promote physical activity in a safe & fun way.", siteLink: "dancemat", codeLink: "noLink" }
+    {
+        id: 1,
+        cardImage: WakabuImgURL,
+        cardTitle: "Wakabu project",
+        cardText: "A solution for encouraging mental health help-seeking behaviours in youths.",
+        siteLink: "https://wakabuteam.wixsite.com/wakabu",
+        codeLink: "noLink"
+    },
+    {
+        id: 2,
+        cardImage: placeholderImgURL,
+        cardTitle: "Teleaphasia project",
+        cardText: "Tele-rehab solution for speech therapists to assign & assess at-home exercises for their patients.",
+        siteLink: "https://cait222.github.io/Personal-Site/#/teleaphasia",
+        codeLink: "noLink"
+    },
+    {
+        id: 3,
+        cardImage: placeholderImgURL,
+        cardTitle: "Elderly dance mat project",
+        cardText: "A dance mat catered to the elderly to promote physical activity in a safe & fun way.",
+        siteLink: "https://cait222.github.io/Personal-Site/#/dancemat",
+        codeLink: "noLink"
+    }
 ];
 
 function Projects() {

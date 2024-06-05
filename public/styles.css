@@ -41,15 +41,13 @@ header {
 }
 
 img.skillPicture {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 /********** PROJECTS SECTION **********/
 
 img.projectPicture {
-    height: 220px;
-    width: 420px;
     object-fit: cover;
 }
 
@@ -68,11 +66,15 @@ img.projectPicture {
 /********** TEXT ELEMENTS **********/
 
 h1 {
-    display: inline-block;
+    display: block;
     font-family: "Lora";
     font-size: 40px;
     margin: 0px;
     padding: 15px;
+}
+
+h1.myName {
+    display: inline-block;
 }
 
 h3 {
