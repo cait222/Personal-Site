@@ -29,6 +29,7 @@ const Routing = () => {
             <Route path="/noLink" element={<NoLinkPage />} />
             <Route path="/teleaphasia" element={<TeleaphasiaProject />} />
             <Route path="/dancemat" element={<DanceMatProject />} />
+
             <Route path="*" element={<Home />} />
         </Routes>
 
