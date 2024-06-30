@@ -4,7 +4,7 @@ import HTMLImgURL from "../images/HTML_logo.png";
 import CSSImgURL from "../images/CSS.png";
 import JSImgURL from "../images/Javascript.png"
 import BootstrapImgURL from "../images/Bootstrap_logo.png";
-import ReactImgURL from "../images/React.png";
+import ReactImgURL from "../images/React_logo.png";
 import PostGRESImgURL from "../images/PostGres_logo.png";
 import MongoDBImgURL from "../images/MongoDB_logo.png";
 

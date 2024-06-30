@@ -46,12 +46,88 @@ img.skillPicture {
 }
 
 /********** PROJECTS SECTION **********/
+#mainProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 img.projectPicture {
     object-fit: cover;
 }
 
-/********** NO LINK SECTION **********/
+img.projectMainPicture {
+    width: 300px;
+}
+
+/********** PROJECTS PAGES **********/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.colorContainer {
+    background: lightblue;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.projectIntro {
+    padding-right: 30px;
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+.projectTitle,
+.projectSkills {
+    text-align: left;
+}
+
+.projectSkills {
+    display: flex;
+}
+
+.projectSkillPicture {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+.projectVid {
+    background-color: yellow;
+    width: 300px;
+    height: 400px;
+}
+
+.projectImageGallery {
+    justify-content: space-around;
+}
+
+.projectImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform .3s;
+}
+
+.projectImage:hover {
+    transform: scale(1.5);
+}
+
+/********** NO LINK PAGE **********/
 
 #noLink {
     text-align: center;

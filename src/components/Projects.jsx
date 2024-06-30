@@ -1,7 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import WakabuImgURL from "../images/Wakabu_landingPage.png";
-import placeholderImgURL from "../images/placeholder.png";
+// import placeholderImgURL from "../images/placeholder.png";
+import dancematImgURL from "../images/danceMat.JPG";
+import teleaphasiaImgURL from "../images/aphasia_VN.png";
 
 let projectsList = [
     {
@@ -14,7 +16,7 @@ let projectsList = [
     },
     {
         id: 2,
-        cardImage: placeholderImgURL,
+        cardImage: teleaphasiaImgURL,
         cardTitle: "Teleaphasia project",
         cardText: "Tele-rehab solution for speech therapists to assign & assess at-home exercises for their patients.",
         siteLink: "https://cait222.github.io/Personal-Site/#/teleaphasia",
@@ -22,7 +24,7 @@ let projectsList = [
     },
     {
         id: 3,
-        cardImage: placeholderImgURL,
+        cardImage: dancematImgURL,
         cardTitle: "Elderly dance mat project",
         cardText: "A dance mat catered to the elderly to promote physical activity in a safe & fun way.",
         siteLink: "https://cait222.github.io/Personal-Site/#/dancemat",
