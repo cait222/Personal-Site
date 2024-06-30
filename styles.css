@@ -67,7 +67,7 @@ img.projectMainPicture {
     display: flex;
     flex-direction: row;
     margin: 10px;
-    width: 75%;
+    width: 80%;
     justify-content: space-between;
 }
 
