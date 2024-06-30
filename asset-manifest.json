@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Personal-Site/static/js/main.a52df7cb.js",
+    "main.js": "/Personal-Site/static/js/main.8f354a24.js",
     "static/media/aphasia_menu.png": "/Personal-Site/static/media/aphasia_menu.f0f32801eb81082733a8.png",
     "static/media/Wakabu_landingPage.png": "/Personal-Site/static/media/Wakabu_landingPage.84deb2810f8c1e3e6776.png",
     "static/media/danceMat_poster.JPG": "/Personal-Site/static/media/danceMat_poster.1bed469e1cb0a7538449.JPG",
@@ -20,9 +20,9 @@
     "static/media/aphasia_mcq.JPG": "/Personal-Site/static/media/aphasia_mcq.43398bbf66123b2a58b9.JPG",
     "static/media/danceMat.JPG": "/Personal-Site/static/media/danceMat.725fd9e1deacfef833dc.JPG",
     "index.html": "/Personal-Site/index.html",
-    "main.a52df7cb.js.map": "/Personal-Site/static/js/main.a52df7cb.js.map"
+    "main.8f354a24.js.map": "/Personal-Site/static/js/main.8f354a24.js.map"
   },
   "entrypoints": [
-    "static/js/main.a52df7cb.js"
+    "static/js/main.8f354a24.js"
   ]
 }
