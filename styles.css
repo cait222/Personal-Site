@@ -41,19 +41,115 @@ header {
 }
 
 img.skillPicture {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 /********** PROJECTS SECTION **********/
+#mainProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 img.projectPicture {
-    height: 220px;
-    width: 420px;
     object-fit: cover;
 }
 
-/********** NO LINK SECTION **********/
+img.projectMainPicture {
+    width: 300px;
+}
+
+/********** PROJECTS PAGES **********/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.colorContainer {
+    background: lightblue;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.projectIntro {
+    padding-right: 30px;
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+.projectTitle,
+.projectSkills {
+    text-align: left;
+}
+
+.projectSkills {
+    display: flex;
+}
+
+.projectSkillPicture {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.projectVid {
+    background-color: yellow;
+    width: 300px;
+    height: 400px;
+}
+
+.projectImageGallery {
+    justify-content: space-around;
+}
+
+img.projectImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform .3s;
+    z-index: 0;
+}
+
+div.projectImage {
+    position: relative;
+}
+
+img.enlargedProjectImage {
+    width: 300px;
+}
+
+span.enlargedProjectImage {
+    position: absolute;
+    left: -9999px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+.projectImage:hover {
+    z-index: 50;
+}
+
+.projectImage:hover span.enlargedProjectImage {
+    top: -10px;
+    left: -50px;
+}
+
+/********** NO LINK PAGE **********/
 
 #noLink {
     text-align: center;
@@ -68,11 +164,15 @@ img.projectPicture {
 /********** TEXT ELEMENTS **********/
 
 h1 {
-    display: inline-block;
+    display: block;
     font-family: "Lora";
     font-size: 40px;
     margin: 0px;
     padding: 15px;
+}
+
+h1.myName {
+    display: inline-block;
 }
 
 h3 {
